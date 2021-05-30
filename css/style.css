@@ -1,0 +1,43 @@
+body {
+    background-color: #1C1C1C;
+}
+p {
+    font-family: "Spartan" ;
+    color: white;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 25%;
+    text-align: left;
+    outline: solid red 1px;
+}
+
+nav {
+    width: 75%;
+    outline: solid red 1px;
+}
+ul {
+    width: 50%;
+    margin-left: 900px;
+}
+
+.heroImg {
+    height: 2800px;
+}
+#logo1 {
+    width: 200px;
+}
+#hero {
+    width: 100%;
+}
+#about {
+    width: 100%;
+}
+footer {
+    background-color: #373738;
+    text-align: center;
+}
