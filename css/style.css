@@ -5,28 +5,43 @@ p {
     font-family: "Spartan" ;
     color: white;
 }
+li {
+    font-family: Spectral;
+    color: white;
+}
 .inline-block {
     display: inline-block;
-    vertical-align: top;
+    width: 100%;
 }
 
 .logo {
-    width: 25%;
+    width: 23%;
+    padding: 1%;
     text-align: left;
-    outline: solid red 1px;
 }
-
+.navigation {
+    outline: solid green 1px;
+    box-shadow: black;
+    text-shadow: black;
+    display: flex;
+}
 nav {
-    width: 75%;
+    display: flex;
+    width: 73%;
+    padding: 1%;
     outline: solid red 1px;
 }
 ul {
     width: 50%;
-    margin-left: 900px;
+    margin-left: auto;
+    text-align: right;
+    justify-content: center;
+    padding-right: 1%;
+    outline: solid blue 1px;
 }
 
 .heroImg {
-    height: 2800px;
+    height: 5700px;
 }
 #logo1 {
     width: 200px;
@@ -34,10 +49,39 @@ ul {
 #hero {
     width: 100%;
 }
-#about {
+#aboutMe {
+    width: 100%;
+}
+#dogma {
+    width: 100%;
+}
+#skills {
     width: 100%;
 }
 footer {
     background-color: #373738;
     text-align: center;
 }
+.resume {
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+button {
+    background-color: #FFD600;
+    border: black;
+    color: black;
+    position: absolute;
+    width: 205px;
+    height: 67px;
+    text-align: center;  
+    font-size: 20px; 
+    font-family: Spectral;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Spectral;
+    src: url(Spectral-Bold.tff);
+  }
